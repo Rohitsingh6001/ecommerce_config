@@ -1,1 +1,10 @@
+server:
+  port: 8081
+spring:
+ application:
+   name: auth-service
 
+ datasource:
+   url: jdbc:mysql://localhost:auth_db
+   username: root
+   password: Rohitsingh0114
